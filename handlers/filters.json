@@ -1,0 +1,16 @@
+{
+  "parameters": [
+    {
+      "DistanceInKm": 64,
+      "Timestamp": "",
+      "Depth": 3,
+      "Magnitude": 3.6
+    },
+    {
+      "DistanceInKm": 1,
+      "Timestamp": "",
+      "Depth": 1,
+      "Magnitude": 4.5
+    }
+  ]
+}
