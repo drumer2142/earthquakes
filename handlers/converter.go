@@ -3,7 +3,6 @@ package handlers
 import (
 	"encoding/json"
 	"github.com/drumer2142/earthquakes/types"
-	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -44,15 +43,15 @@ func filterActivity(items []string) {
 
 func loadFilters() {
 	jsonFile, err := os.Open("filters.json")
+	defer jsonFile.Close()
 
 	if err != nil {
 		log.Println(err)
 	}
 
-	byteValue, _ := ioutil.ReadAll(jsonFile)
-
 	var filters types.Filters
-	err = json.Unmarshal(byteValue, &filters)
+	jsonParser := json.NewDecoder(jsonFile)
+	err = jsonParser.Decode(&filters)
 
 	if err != nil {
 		log.Fatalln(err)
