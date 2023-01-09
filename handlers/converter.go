@@ -38,17 +38,17 @@ func feedsConverter(feeds []*types.GeophysicsRss) {
 }
 
 func filterActivity(items []string) {
-	loadFilters()
+	filters := loadFilters()
+	log.Println(filters)
 }
 
-func loadFilters() {
+func loadFilters() types.Filters {
 	jsonFile, err := os.Open("filters.json")
 	defer jsonFile.Close()
 
 	if err != nil {
 		log.Println(err)
 	}
-
 	var filters types.Filters
 	jsonParser := json.NewDecoder(jsonFile)
 	err = jsonParser.Decode(&filters)
@@ -56,4 +56,6 @@ func loadFilters() {
 	if err != nil {
 		log.Fatalln(err)
 	}
+
+	return filters
 }
