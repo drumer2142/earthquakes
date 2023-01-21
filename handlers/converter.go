@@ -5,6 +5,7 @@ import (
 	"github.com/drumer2142/earthquakes/types"
 	"log"
 	"os"
+	"regexp"
 	"strings"
 )
 
@@ -16,6 +17,13 @@ type Filter struct {
 	filter *types.Filters
 }
 
+type QuakeData struct {
+	Latitude  string
+	Longitude string
+	Depth     string
+	Magnitude string
+}
+
 func feedsConverter(feeds []*types.GeophysicsRss) {
 	for _, geo := range feeds {
 		for i := 0; i < len(geo.Channel.Items); i++ {
@@ -25,21 +33,32 @@ func feedsConverter(feeds []*types.GeophysicsRss) {
 			descriptionItems := strings.Split(geo.Channel.Items[i].Description, "<br>")
 			log.Println(descriptionItems)
 
-			filterActivity(descriptionItems)
-			//distanceFromAthens := descriptionItem[0]
-			//timeOfEvent := descriptionItem[1]
-			//lat := descriptionItem[2]
-			//long := descriptionItem[3]
-			//depth := descriptionItem[4]
-			//magnitude := descriptionItem[5]
+			quake := cleanData(descriptionItems)
+			quake.filterActivity()
 		}
 
 	}
 }
 
-func filterActivity(items []string) {
+func cleanData(item []string) *QuakeData {
+	floatReg, _ := regexp.Compile("[+-]?([0-9]*[.])?[0-9]+")
+
+	return &QuakeData{
+		Latitude:  floatReg.FindString(item[2]),
+		Longitude: floatReg.FindString(item[3]),
+		Depth:     floatReg.FindString(item[4]),
+		Magnitude: floatReg.FindString(item[5]),
+	}
+}
+
+func (quake *QuakeData) filterActivity() {
 	filters := loadFilters()
 	log.Println(filters)
+	//for _, filter := range filters.Parameters {
+	//	if filter.Magnitude ==  {
+	//
+	//	}
+	//}
 }
 
 func loadFilters() types.Filters {
