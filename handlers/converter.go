@@ -7,11 +7,14 @@ import (
 	"math"
 	"os"
 	"regexp"
+	"strconv"
 	"strings"
 )
 
 var (
 	ActivityCounter = 3
+	FixedLatitude   = 37.99
+	FixedLongitude  = 23.70
 )
 
 type Filter struct {
@@ -19,10 +22,10 @@ type Filter struct {
 }
 
 type QuakeData struct {
-	Latitude  string
-	Longitude string
-	Depth     string
-	Magnitude string
+	Latitude  float64
+	Longitude float64
+	Depth     float64
+	Magnitude float64
 }
 
 func feedsConverter(feeds []*types.GeophysicsRss) {
@@ -34,34 +37,41 @@ func feedsConverter(feeds []*types.GeophysicsRss) {
 			descriptionItems := strings.Split(geo.Channel.Items[i].Description, "<br>")
 			log.Println(descriptionItems)
 
-			quake := cleanData(descriptionItems)
+			quake := createQuakeData(descriptionItems)
 			quake.filterActivity()
 		}
 
 	}
 }
 
-func cleanData(item []string) *QuakeData {
+func createQuakeData(item []string) *QuakeData {
 	floatReg, _ := regexp.Compile("[+-]?([0-9]*[.])?[0-9]+")
 
+	lat, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
+	long, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
+	depth, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
+	magnitude, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
+
 	return &QuakeData{
-		Latitude:  floatReg.FindString(item[2]),
-		Longitude: floatReg.FindString(item[3]),
-		Depth:     floatReg.FindString(item[4]),
-		Magnitude: floatReg.FindString(item[5]),
+		Latitude:  lat,
+		Longitude: long,
+		Depth:     depth,
+		Magnitude: magnitude,
 	}
 }
 
 func (quake *QuakeData) filterActivity() {
 	filters := loadFilters()
 	log.Println(filters)
+	//distanceInKM := distance(FixedLatitude, FixedLongitude, 29.46786, -98.53506, "K")
+	//
 	//for _, filter := range filters.Parameters {
-	//	if filter.Magnitude ==  {
+	//
+	//	if filter.Magnitude == floatMagnitude {
 	//
 	//	}
 	//}
-	//TODO calculate distance from athens based on LAT and LONG
-	distance(32.9697, -96.80322, 29.46786, -98.53506, "K")
+
 }
 
 func loadFilters() types.Filters {
