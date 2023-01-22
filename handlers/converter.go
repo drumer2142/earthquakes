@@ -48,9 +48,9 @@ func createQuakeData(item []string) *QuakeData {
 	floatReg, _ := regexp.Compile("[+-]?([0-9]*[.])?[0-9]+")
 
 	lat, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
-	long, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
-	depth, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
-	magnitude, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
+	long, _ := strconv.ParseFloat(floatReg.FindString(item[3]), 64)
+	depth, _ := strconv.ParseFloat(floatReg.FindString(item[4]), 64)
+	magnitude, _ := strconv.ParseFloat(floatReg.FindString(item[5]), 64)
 
 	return &QuakeData{
 		Latitude:  lat,
