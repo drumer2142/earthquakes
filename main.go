@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/drumer2142/earthquakes/handlers"
+	"time"
 )
 
 var feedURLs = []string{
@@ -9,9 +10,9 @@ var feedURLs = []string{
 }
 
 func main() {
-	//ticker := time.NewTicker(3 * time.Minute)
-	//for _ = range ticker.C {
-	handlers.FetchFeeds(feedURLs)
-	//}
+	ticker := time.NewTicker(3 * time.Minute)
+	for _ = range ticker.C {
+		handlers.FetchFeeds(feedURLs)
+	}
 
 }

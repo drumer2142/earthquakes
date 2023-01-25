@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"encoding/base64"
 	"encoding/json"
 	"github.com/drumer2142/earthquakes/types"
 	"log"
@@ -12,7 +13,7 @@ import (
 )
 
 var (
-	ActivityCounter = 20
+	ActivityCounter = 3
 	FixedLatitude   = 37.99
 	FixedLongitude  = 23.70
 )
@@ -26,19 +27,23 @@ type QuakeData struct {
 	Longitude float64
 	Depth     float64
 	Magnitude float64
+	Timestamp string
 }
 
+var Timestamps []string
+
 func feedsConverter(feeds []*types.GeophysicsRss) {
+	filters := loadFilters()
 	for _, geo := range feeds {
 		for i := 0; i < len(geo.Channel.Items); i++ {
 			if i > ActivityCounter {
 				break
 			}
 			descriptionItems := strings.Split(geo.Channel.Items[i].Description, "<br>")
-			//log.Println("Description Items: ", descriptionItems)
+			//log.Println("Description Items: \n", descriptionItems)
 
 			quake := createQuakeData(descriptionItems)
-			quake.filterActivity()
+			quake.filterActivity(filters)
 		}
 
 	}
@@ -47,6 +52,7 @@ func feedsConverter(feeds []*types.GeophysicsRss) {
 func createQuakeData(item []string) *QuakeData {
 	floatReg, _ := regexp.Compile("[+-]?([0-9]*[.])?[0-9]+")
 
+	timestampHash := base64.StdEncoding.EncodeToString([]byte(item[1]))
 	lat, _ := strconv.ParseFloat(floatReg.FindString(item[2]), 64)
 	long, _ := strconv.ParseFloat(floatReg.FindString(item[3]), 64)
 	depth, _ := strconv.ParseFloat(floatReg.FindString(item[4]), 64)
@@ -57,19 +63,31 @@ func createQuakeData(item []string) *QuakeData {
 		Longitude: long,
 		Depth:     depth,
 		Magnitude: magnitude,
+		Timestamp: timestampHash,
 	}
 }
 
-func (quake *QuakeData) filterActivity() {
-	filters := loadFilters()
+func (quake *QuakeData) filterActivity(filters types.Filters) {
 	quakeDistanceInKM := distance(FixedLatitude, FixedLongitude, quake.Latitude, quake.Longitude, "K")
 	for _, filter := range filters.Parameters {
 
 		if quake.Magnitude >= filter.Magnitude && quakeDistanceInKM <= filter.DistanceInKm && quake.Depth >= filter.Depth {
-			log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f", quake.Magnitude, quakeDistanceInKM, quake.Depth)
+			if quake.checkDuplicatesExist() == false {
+				log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f", quake.Magnitude, quakeDistanceInKM, quake.Depth)
+			}
 		}
 	}
 
+}
+
+func (quake *QuakeData) checkDuplicatesExist() bool {
+	for _, stamp := range Timestamps {
+		if quake.Timestamp != stamp {
+			Timestamps = append(Timestamps, quake.Timestamp)
+			return false
+		}
+	}
+	return true
 }
 
 func loadFilters() types.Filters {

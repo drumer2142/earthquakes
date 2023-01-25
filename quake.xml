@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <rss version="2.0">
+     <channel>
+        <title>Recent Seismicity in Greece</title>
+        <link>http://www.geophysics.geol.uoa.gr/stations/maps/recent.html</link>
+        <description>Real-Time seismicity</description>
+        <pubDate>Wed, 25 January 2023 22:35:01 GMT</pubDate>
+        <lastBuildDate>Wed, 25 January 2023 22:35:01 GMT</lastBuildDate>
+        <webMaster>vkapetan@geol.uoa.gr (Vasilis Kapetanidis)</webMaster>
+        <item>
+           <title>M 1.6, 25/01 - 21:31:49 , 30.2 km SE of Arta</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btmr&lng=en]]></link>
+           <description>30.2 km SE of Arta&lt;br&gt; Time: 25-Jan-2023 21:31:49 (UTC) &lt;br&gt; Latitude: 38.95N &lt;br&gt; Longitude: 21.20E &lt;br&gt; Depth: 28km &lt;br&gt; M 1.6</description>
+           <pubDate>Wed, 25 January 2023 21:33:28</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btmr&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.9, 25/01 - 21:08:15 , 20.3 km ESE of Amfissa</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btlx&lng=en]]></link>
+           <description>20.3 km ESE of Amfissa&lt;br&gt; Time: 25-Jan-2023 21:08:15 (UTC) &lt;br&gt; Latitude: 38.44N &lt;br&gt; Longitude: 22.58E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.9</description>
+           <pubDate>Wed, 25 January 2023 21:09:45</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btlx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 25/01 - 20:18:43 , 17.2 km NW of Kalavrita</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btkh&lng=en]]></link>
+           <description>17.2 km NW of Kalavrita&lt;br&gt; Time: 25-Jan-2023 20:18:43 (UTC) &lt;br&gt; Latitude: 38.12N &lt;br&gt; Longitude: 21.95E &lt;br&gt; Depth: 5km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 20:19:45</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btkh&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.8, 25/01 - 20:02:32 , 23.6 km SSW of Katerini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btjs&lng=en]]></link>
+           <description>23.6 km SSW of Katerini&lt;br&gt; Time: 25-Jan-2023 20:02:32 (UTC) &lt;br&gt; Latitude: 40.09N &lt;br&gt; Longitude: 22.36E &lt;br&gt; Depth: 2km &lt;br&gt; M 2.8</description>
+           <pubDate>Wed, 25 January 2023 20:04:14</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btjs&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 25/01 - 15:43:27 , 18.9 km NNW of Aegion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btbf&lng=en]]></link>
+           <description>18.9 km NNW of Aegion&lt;br&gt; Time: 25-Jan-2023 15:43:27 (UTC) &lt;br&gt; Latitude: 38.40N &lt;br&gt; Longitude: 21.97E &lt;br&gt; Depth: 6km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 15:48:13</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btbf&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.0, 25/01 - 15:33:20 , 33.0 km NNW of Methoni</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btaw&lng=en]]></link>
+           <description>33.0 km NNW of Methoni&lt;br&gt; Time: 25-Jan-2023 15:33:20 (UTC) &lt;br&gt; Latitude: 37.10N &lt;br&gt; Longitude: 21.61E &lt;br&gt; Depth: 5km &lt;br&gt; M 2.0</description>
+           <pubDate>Wed, 25 January 2023 15:38:50</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btaw&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 25/01 - 15:17:06 , 18.6 km ESE of Amfissa</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btai&lng=en]]></link>
+           <description>18.6 km ESE of Amfissa&lt;br&gt; Time: 25-Jan-2023 15:17:06 (UTC) &lt;br&gt; Latitude: 38.49N &lt;br&gt; Longitude: 22.58E &lt;br&gt; Depth: 9km &lt;br&gt; M 1.5</description>
+           <pubDate>Wed, 25 January 2023 15:29:04</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btai&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.4, 25/01 - 15:07:50 , 13.7 km WNW of Argostoli</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btaa&lng=en]]></link>
+           <description>13.7 km WNW of Argostoli&lt;br&gt; Time: 25-Jan-2023 15:07:50 (UTC) &lt;br&gt; Latitude: 38.22N &lt;br&gt; Longitude: 20.34E &lt;br&gt; Depth: 15km &lt;br&gt; M 2.4</description>
+           <pubDate>Wed, 25 January 2023 15:28:17</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023btaa&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.2, 25/01 - 14:34:02 , 16.5 km SE of Lamia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsyx&lng=en]]></link>
+           <description>16.5 km SE of Lamia&lt;br&gt; Time: 25-Jan-2023 14:34:02 (UTC) &lt;br&gt; Latitude: 38.78N &lt;br&gt; Longitude: 22.55E &lt;br&gt; Depth: 11km &lt;br&gt; M 1.2</description>
+           <pubDate>Wed, 25 January 2023 14:39:27</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsyx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 25/01 - 14:24:11 , 34.3 km NE of Trikala</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsyo&lng=en]]></link>
+           <description>34.3 km NE of Trikala&lt;br&gt; Time: 25-Jan-2023 14:24:11 (UTC) &lt;br&gt; Latitude: 39.78N &lt;br&gt; Longitude: 22.04E &lt;br&gt; Depth: 7km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 14:30:20</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsyo&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 3.3, 25/01 - 14:07:14 , 59.8 km S of Rodhos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsya&lng=en]]></link>
+           <description>59.8 km S of Rodhos&lt;br&gt; Time: 25-Jan-2023 14:07:14 (UTC) &lt;br&gt; Latitude: 35.91N &lt;br&gt; Longitude: 28.13E &lt;br&gt; Depth: 40km &lt;br&gt; M 3.3</description>
+           <pubDate>Wed, 25 January 2023 14:14:47</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsya&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.7, 25/01 - 13:58:10 , 42.6 km NW of Serres</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsxs&lng=en]]></link>
+           <description>42.6 km NW of Serres&lt;br&gt; Time: 25-Jan-2023 13:58:10 (UTC) &lt;br&gt; Latitude: 41.39N &lt;br&gt; Longitude: 23.24E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.7</description>
+           <pubDate>Wed, 25 January 2023 14:15:52</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsxs&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 25/01 - 13:55:28 , 42.5 km NW of Serres</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsxq&lng=en]]></link>
+           <description>42.5 km NW of Serres&lt;br&gt; Time: 25-Jan-2023 13:55:28 (UTC) &lt;br&gt; Latitude: 41.38N &lt;br&gt; Longitude: 23.23E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 14:16:50</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsxq&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 25/01 - 13:34:15 , 9.5 km NW of Argostoli</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bswx&lng=en]]></link>
+           <description>9.5 km NW of Argostoli&lt;br&gt; Time: 25-Jan-2023 13:34:15 (UTC) &lt;br&gt; Latitude: 38.23N &lt;br&gt; Longitude: 20.40E &lt;br&gt; Depth: 13km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 13:37:10</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bswx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 25/01 - 13:16:30 , 16.0 km SE of Lamia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bswj&lng=en]]></link>
+           <description>16.0 km SE of Lamia&lt;br&gt; Time: 25-Jan-2023 13:16:30 (UTC) &lt;br&gt; Latitude: 38.78N &lt;br&gt; Longitude: 22.54E &lt;br&gt; Depth: 11km &lt;br&gt; M 1.6</description>
+           <pubDate>Wed, 25 January 2023 13:23:25</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bswj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.7, 25/01 - 13:14:23 , 38.9 km SW of Levadhia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bswh&lng=en]]></link>
+           <description>38.9 km SW of Levadhia&lt;br&gt; Time: 25-Jan-2023 13:14:23 (UTC) &lt;br&gt; Latitude: 38.17N &lt;br&gt; Longitude: 22.59E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.7</description>
+           <pubDate>Wed, 25 January 2023 13:22:42</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bswh&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 5.8, 25/01 - 12:37:09 , 66.5 km SSE of Rodhos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsvb&lng=en]]></link>
+           <description>66.5 km SSE of Rodhos&lt;br&gt; Time: 25-Jan-2023 12:37:09 (UTC) &lt;br&gt; Latitude: 35.87N &lt;br&gt; Longitude: 28.44E &lt;br&gt; Depth: 33km &lt;br&gt; M 5.8</description>
+           <pubDate>Wed, 25 January 2023 12:57:35</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsvb&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.0, 25/01 - 12:32:40 , 17.2 km SE of Lamia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsux&lng=en]]></link>
+           <description>17.2 km SE of Lamia&lt;br&gt; Time: 25-Jan-2023 12:32:40 (UTC) &lt;br&gt; Latitude: 38.77N &lt;br&gt; Longitude: 22.55E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.0</description>
+           <pubDate>Wed, 25 January 2023 12:39:27</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsux&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 25/01 - 12:13:24 , 16.2 km SE of Lamia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsug&lng=en]]></link>
+           <description>16.2 km SE of Lamia&lt;br&gt; Time: 25-Jan-2023 12:13:24 (UTC) &lt;br&gt; Latitude: 38.78N &lt;br&gt; Longitude: 22.55E &lt;br&gt; Depth: 11km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 12:19:18</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsug&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.0, 25/01 - 11:58:43 , 27.4 km SSE of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bstu&lng=en]]></link>
+           <description>27.4 km SSE of Iraklion&lt;br&gt; Time: 25-Jan-2023 11:58:43 (UTC) &lt;br&gt; Latitude: 35.09N &lt;br&gt; Longitude: 25.20E &lt;br&gt; Depth: 3km &lt;br&gt; M 2.0</description>
+           <pubDate>Wed, 25 January 2023 12:02:01</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bstu&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.0, 25/01 - 10:46:14 , 17.3 km WSW of Tripolis</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsrk&lng=en]]></link>
+           <description>17.3 km WSW of Tripolis&lt;br&gt; Time: 25-Jan-2023 10:46:14 (UTC) &lt;br&gt; Latitude: 37.42N &lt;br&gt; Longitude: 22.21E &lt;br&gt; Depth: 14km &lt;br&gt; M 2.0</description>
+           <pubDate>Wed, 25 January 2023 10:57:27</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsrk&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.8, 25/01 - 10:23:28 , 26.4 km NNE of Igoumenitsa</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsqq&lng=en]]></link>
+           <description>26.4 km NNE of Igoumenitsa&lt;br&gt; Time: 25-Jan-2023 10:23:28 (UTC) &lt;br&gt; Latitude: 39.71N &lt;br&gt; Longitude: 20.41E &lt;br&gt; Depth: 2km &lt;br&gt; M 2.8</description>
+           <pubDate>Wed, 25 January 2023 10:35:23</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsqq&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.3, 25/01 - 07:56:09 , 25.7 km E of Argostoli</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bslu&lng=en]]></link>
+           <description>25.7 km E of Argostoli&lt;br&gt; Time: 25-Jan-2023 07:56:09 (UTC) &lt;br&gt; Latitude: 38.14N &lt;br&gt; Longitude: 20.77E &lt;br&gt; Depth: 10km &lt;br&gt; M 2.3</description>
+           <pubDate>Wed, 25 January 2023 08:23:58</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bslu&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 25/01 - 07:21:54 , 20.4 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bskq&lng=en]]></link>
+           <description>20.4 km N of Mitilini&lt;br&gt; Time: 25-Jan-2023 07:21:54 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.22E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.3</description>
+           <pubDate>Wed, 25 January 2023 12:27:36</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bskq&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 25/01 - 07:11:56 , 56.1 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bski&lng=en]]></link>
+           <description>56.1 km ENE of Athens&lt;br&gt; Time: 25-Jan-2023 07:11:56 (UTC) &lt;br&gt; Latitude: 38.24N &lt;br&gt; Longitude: 24.29E &lt;br&gt; Depth: 13km &lt;br&gt; M 1.5</description>
+           <pubDate>Wed, 25 January 2023 10:16:36</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bski&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.5, 25/01 - 07:06:13 , 27.8 km SSE of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bskc&lng=en]]></link>
+           <description>27.8 km SSE of Iraklion&lt;br&gt; Time: 25-Jan-2023 07:06:13 (UTC) &lt;br&gt; Latitude: 35.08N &lt;br&gt; Longitude: 25.20E &lt;br&gt; Depth: 5km &lt;br&gt; M 2.5</description>
+           <pubDate>Wed, 25 January 2023 11:22:29</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bskc&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 25/01 - 06:31:43 , 22.6 km NNE of Tripolis</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsiz&lng=en]]></link>
+           <description>22.6 km NNE of Tripolis&lt;br&gt; Time: 25-Jan-2023 06:31:43 (UTC) &lt;br&gt; Latitude: 37.71N &lt;br&gt; Longitude: 22.44E &lt;br&gt; Depth: 31km &lt;br&gt; M 1.6</description>
+           <pubDate>Wed, 25 January 2023 07:01:16</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsiz&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 25/01 - 05:24:29 , 32.0 km SE of Karpenision</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsgu&lng=en]]></link>
+           <description>32.0 km SE of Karpenision&lt;br&gt; Time: 25-Jan-2023 05:24:29 (UTC) &lt;br&gt; Latitude: 38.61N &lt;br&gt; Longitude: 22.01E &lt;br&gt; Depth: 4km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 05:54:56</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsgu&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 25/01 - 05:22:26 , 51.3 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsgs&lng=en]]></link>
+           <description>51.3 km ENE of Athens&lt;br&gt; Time: 25-Jan-2023 05:22:26 (UTC) &lt;br&gt; Latitude: 38.22N &lt;br&gt; Longitude: 24.24E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.3</description>
+           <pubDate>Wed, 25 January 2023 10:32:12</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsgs&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.1, 25/01 - 04:44:11 , 43.0 km NNW of Kithira</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsfl&lng=en]]></link>
+           <description>43.0 km NNW of Kithira&lt;br&gt; Time: 25-Jan-2023 04:44:11 (UTC) &lt;br&gt; Latitude: 36.62N &lt;br&gt; Longitude: 22.87E &lt;br&gt; Depth: 10km &lt;br&gt; M 2.1</description>
+           <pubDate>Wed, 25 January 2023 04:49:28</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsfl&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 0.6, 25/01 - 04:02:37 , 10.2 km NNE of Patras</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsec&lng=en]]></link>
+           <description>10.2 km NNE of Patras&lt;br&gt; Time: 25-Jan-2023 04:02:37 (UTC) &lt;br&gt; Latitude: 38.33N &lt;br&gt; Longitude: 21.76E &lt;br&gt; Depth: 6km &lt;br&gt; M 0.6</description>
+           <pubDate>Wed, 25 January 2023 04:03:42</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsec&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 25/01 - 03:48:47 , 37.5 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsdq&lng=en]]></link>
+           <description>37.5 km NW of Korinthos&lt;br&gt; Time: 25-Jan-2023 03:48:47 (UTC) &lt;br&gt; Latitude: 38.16N &lt;br&gt; Longitude: 22.61E &lt;br&gt; Depth: 5km &lt;br&gt; M 1.8</description>
+           <pubDate>Wed, 25 January 2023 03:52:28</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsdq&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.5, 25/01 - 03:19:55 , 35.0 km SW of Levadhia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bscr&lng=en]]></link>
+           <description>35.0 km SW of Levadhia&lt;br&gt; Time: 25-Jan-2023 03:19:55 (UTC) &lt;br&gt; Latitude: 38.19N &lt;br&gt; Longitude: 22.62E &lt;br&gt; Depth: 2km &lt;br&gt; M 2.5</description>
+           <pubDate>Wed, 25 January 2023 03:21:37</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bscr&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 25/01 - 03:13:21 , 51.1 km SSW of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bscl&lng=en]]></link>
+           <description>51.1 km SSW of Iraklion&lt;br&gt; Time: 25-Jan-2023 03:13:21 (UTC) &lt;br&gt; Latitude: 34.88N &lt;br&gt; Longitude: 24.98E &lt;br&gt; Depth: 14km &lt;br&gt; M 1.5</description>
+           <pubDate>Wed, 25 January 2023 11:36:55</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bscl&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.4, 25/01 - 03:03:19 , 58.0 km SSW of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bscd&lng=en]]></link>
+           <description>58.0 km SSW of Iraklion&lt;br&gt; Time: 25-Jan-2023 03:03:19 (UTC) &lt;br&gt; Latitude: 34.82N &lt;br&gt; Longitude: 24.97E &lt;br&gt; Depth: 7km &lt;br&gt; M 2.4</description>
+           <pubDate>Wed, 25 January 2023 11:52:08</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bscd&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 25/01 - 02:53:18 , 55.3 km SSW of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsbu&lng=en]]></link>
+           <description>55.3 km SSW of Iraklion&lt;br&gt; Time: 25-Jan-2023 02:53:18 (UTC) &lt;br&gt; Latitude: 34.85N &lt;br&gt; Longitude: 24.95E &lt;br&gt; Depth: 13km &lt;br&gt; M 1.6</description>
+           <pubDate>Wed, 25 January 2023 11:57:33</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsbu&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 25/01 - 02:41:32 , 25.4 km SSE of Amfissa</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsbk&lng=en]]></link>
+           <description>25.4 km SSE of Amfissa&lt;br&gt; Time: 25-Jan-2023 02:41:32 (UTC) &lt;br&gt; Latitude: 38.31N &lt;br&gt; Longitude: 22.46E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.5</description>
+           <pubDate>Wed, 25 January 2023 02:42:39</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsbk&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 25/01 - 02:40:56 , 49.4 km SSW of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsbj&lng=en]]></link>
+           <description>49.4 km SSW of Iraklion&lt;br&gt; Time: 25-Jan-2023 02:40:56 (UTC) &lt;br&gt; Latitude: 34.90N &lt;br&gt; Longitude: 24.97E &lt;br&gt; Depth: 14km &lt;br&gt; M 1.6</description>
+           <pubDate>Wed, 25 January 2023 12:01:13</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bsbj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.0, 25/01 - 01:54:05 , 17.5 km NNW of Aegion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brzv&lng=en]]></link>
+           <description>17.5 km NNW of Aegion&lt;br&gt; Time: 25-Jan-2023 01:54:05 (UTC) &lt;br&gt; Latitude: 38.38N &lt;br&gt; Longitude: 21.98E &lt;br&gt; Depth: 2km &lt;br&gt; M 2.0</description>
+           <pubDate>Wed, 25 January 2023 01:55:39</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brzv&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 25/01 - 01:42:21 , 30.8 km N of Tripolis</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brzl&lng=en]]></link>
+           <description>30.8 km N of Tripolis&lt;br&gt; Time: 25-Jan-2023 01:42:21 (UTC) &lt;br&gt; Latitude: 37.79N &lt;br&gt; Longitude: 22.38E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.3</description>
+           <pubDate>Wed, 25 January 2023 01:43:47</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brzl&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.2, 25/01 - 01:11:00 , 40.1 km W of Skyros</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bryk&lng=en]]></link>
+           <description>40.1 km W of Skyros&lt;br&gt; Time: 25-Jan-2023 01:11:00 (UTC) &lt;br&gt; Latitude: 38.93N &lt;br&gt; Longitude: 24.10E &lt;br&gt; Depth: 5km &lt;br&gt; M 2.2</description>
+           <pubDate>Wed, 25 January 2023 10:36:57</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bryk&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 25/01 - 00:15:06 , 50.6 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brwo&lng=en]]></link>
+           <description>50.6 km ENE of Athens&lt;br&gt; Time: 25-Jan-2023 00:15:06 (UTC) &lt;br&gt; Latitude: 38.23N &lt;br&gt; Longitude: 24.22E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.5</description>
+           <pubDate>Wed, 25 January 2023 10:38:39</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brwo&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.1, 25/01 - 00:13:50 , 13.3 km NNW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brwn&lng=en]]></link>
+           <description>13.3 km NNW of Korinthos&lt;br&gt; Time: 25-Jan-2023 00:13:50 (UTC) &lt;br&gt; Latitude: 38.05N &lt;br&gt; Longitude: 22.88E &lt;br&gt; Depth: 14km &lt;br&gt; M 1.1</description>
+           <pubDate>Wed, 25 January 2023 12:17:49</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brwn&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 24/01 - 23:03:36 , 11.9 km NE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bruf&lng=en]]></link>
+           <description>11.9 km NE of Thiva&lt;br&gt; Time: 24-Jan-2023 23:03:36 (UTC) &lt;br&gt; Latitude: 38.41N &lt;br&gt; Longitude: 23.40E &lt;br&gt; Depth: 3km &lt;br&gt; M 1.3</description>
+           <pubDate>Tue, 24 January 2023 23:04:38</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bruf&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 24/01 - 22:26:35 , 52.4 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brsz&lng=en]]></link>
+           <description>52.4 km ENE of Athens&lt;br&gt; Time: 24-Jan-2023 22:26:35 (UTC) &lt;br&gt; Latitude: 38.21N &lt;br&gt; Longitude: 24.26E &lt;br&gt; Depth: 11km &lt;br&gt; M 1.5</description>
+           <pubDate>Wed, 25 January 2023 10:41:51</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brsz&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.1, 24/01 - 21:51:14 , 69.7 km WNW of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brrv&lng=en]]></link>
+           <description>69.7 km WNW of Mitilini&lt;br&gt; Time: 24-Jan-2023 21:51:14 (UTC) &lt;br&gt; Latitude: 39.29N &lt;br&gt; Longitude: 25.46E &lt;br&gt; Depth: 15km &lt;br&gt; M 2.1</description>
+           <pubDate>Wed, 25 January 2023 10:54:32</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brrv&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.2, 24/01 - 21:23:49 , 22.9 km NW of Aegion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brqx&lng=en]]></link>
+           <description>22.9 km NW of Aegion&lt;br&gt; Time: 24-Jan-2023 21:23:49 (UTC) &lt;br&gt; Latitude: 38.41N &lt;br&gt; Longitude: 21.92E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.2</description>
+           <pubDate>Tue, 24 January 2023 21:25:18</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brqx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 21:08:52 , 8.5 km ESE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brql&lng=en]]></link>
+           <description>8.5 km ESE of Andravida&lt;br&gt; Time: 24-Jan-2023 21:08:52 (UTC) &lt;br&gt; Latitude: 37.86N &lt;br&gt; Longitude: 21.35E &lt;br&gt; Depth: 13km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 21:10:36</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brql&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 24/01 - 20:58:40 , 21.1 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brqc&lng=en]]></link>
+           <description>21.1 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 20:58:40 (UTC) &lt;br&gt; Latitude: 39.36N &lt;br&gt; Longitude: 26.23E &lt;br&gt; Depth: 11km &lt;br&gt; M 1.3</description>
+           <pubDate>Wed, 25 January 2023 11:01:04</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brqc&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 19:59:58 , 36.9 km SW of Levadhia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023broe&lng=en]]></link>
+           <description>36.9 km SW of Levadhia&lt;br&gt; Time: 24-Jan-2023 19:59:58 (UTC) &lt;br&gt; Latitude: 38.17N &lt;br&gt; Longitude: 22.62E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 20:00:55</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023broe&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.3, 24/01 - 19:56:14 , 71.7 km SSW of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023broa&lng=en]]></link>
+           <description>71.7 km SSW of Iraklion&lt;br&gt; Time: 24-Jan-2023 19:56:14 (UTC) &lt;br&gt; Latitude: 34.70N &lt;br&gt; Longitude: 24.93E &lt;br&gt; Depth: 21km &lt;br&gt; M 2.3</description>
+           <pubDate>Wed, 25 January 2023 12:10:15</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023broa&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 19:30:25 , 19.7 km SSE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brne&lng=en]]></link>
+           <description>19.7 km SSE of Thiva&lt;br&gt; Time: 24-Jan-2023 19:30:25 (UTC) &lt;br&gt; Latitude: 38.17N &lt;br&gt; Longitude: 23.44E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 19:31:42</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brne&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.7, 24/01 - 18:36:14 , 58.8 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brlk&lng=en]]></link>
+           <description>58.8 km ENE of Athens&lt;br&gt; Time: 24-Jan-2023 18:36:14 (UTC) &lt;br&gt; Latitude: 38.27N &lt;br&gt; Longitude: 24.29E &lt;br&gt; Depth: 7km &lt;br&gt; M 1.7</description>
+           <pubDate>Wed, 25 January 2023 11:02:00</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brlk&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.2, 24/01 - 18:30:50 , 8.9 km S of Mesolonghi</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brlf&lng=en]]></link>
+           <description>8.9 km S of Mesolonghi&lt;br&gt; Time: 24-Jan-2023 18:30:50 (UTC) &lt;br&gt; Latitude: 38.29N &lt;br&gt; Longitude: 21.42E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.2</description>
+           <pubDate>Tue, 24 January 2023 18:32:29</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brlf&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.0, 24/01 - 18:03:58 , 32.0 km SE of Karpenision</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brki&lng=en]]></link>
+           <description>32.0 km SE of Karpenision&lt;br&gt; Time: 24-Jan-2023 18:03:58 (UTC) &lt;br&gt; Latitude: 38.57N &lt;br&gt; Longitude: 21.96E &lt;br&gt; Depth: 16km &lt;br&gt; M 1.0</description>
+           <pubDate>Tue, 24 January 2023 18:04:59</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brki&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 17:45:03 , 36.0 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brjs&lng=en]]></link>
+           <description>36.0 km NW of Korinthos&lt;br&gt; Time: 24-Jan-2023 17:45:03 (UTC) &lt;br&gt; Latitude: 38.16N &lt;br&gt; Longitude: 22.63E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 17:46:02</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brjs&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.1, 24/01 - 17:01:11 , 34.4 km SSW of Levadhia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brig&lng=en]]></link>
+           <description>34.4 km SSW of Levadhia&lt;br&gt; Time: 24-Jan-2023 17:01:11 (UTC) &lt;br&gt; Latitude: 38.18N &lt;br&gt; Longitude: 22.66E &lt;br&gt; Depth: 10km &lt;br&gt; M 2.1</description>
+           <pubDate>Tue, 24 January 2023 17:02:24</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brig&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 16:55:40 , 20.8 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brib&lng=en]]></link>
+           <description>20.8 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 16:55:40 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.23E &lt;br&gt; Depth: 9km &lt;br&gt; M 1.4</description>
+           <pubDate>Wed, 25 January 2023 11:07:16</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brib&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.9, 24/01 - 16:46:19 , 11.3 km SSW of Ioannina</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brht&lng=en]]></link>
+           <description>11.3 km SSW of Ioannina&lt;br&gt; Time: 24-Jan-2023 16:46:19 (UTC) &lt;br&gt; Latitude: 39.58N &lt;br&gt; Longitude: 20.79E &lt;br&gt; Depth: 23km &lt;br&gt; M 1.9</description>
+           <pubDate>Tue, 24 January 2023 16:47:31</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brht&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.6, 24/01 - 16:04:06 , 14.2 km SW of Lamia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brgj&lng=en]]></link>
+           <description>14.2 km SW of Lamia&lt;br&gt; Time: 24-Jan-2023 16:04:06 (UTC) &lt;br&gt; Latitude: 38.81N &lt;br&gt; Longitude: 22.32E &lt;br&gt; Depth: 47km &lt;br&gt; M 2.6</description>
+           <pubDate>Tue, 24 January 2023 16:07:50</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brgj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.0, 24/01 - 15:15:41 , 18.1 km N of Thessaloniki</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bret&lng=en]]></link>
+           <description>18.1 km N of Thessaloniki&lt;br&gt; Time: 24-Jan-2023 15:15:41 (UTC) &lt;br&gt; Latitude: 40.80N &lt;br&gt; Longitude: 22.98E &lt;br&gt; Depth: 10km &lt;br&gt; M 2.0</description>
+           <pubDate>Tue, 24 January 2023 15:16:44</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bret&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.7, 24/01 - 14:19:26 , 8.0 km SE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brcx&lng=en]]></link>
+           <description>8.0 km SE of Andravida&lt;br&gt; Time: 24-Jan-2023 14:19:26 (UTC) &lt;br&gt; Latitude: 37.85N &lt;br&gt; Longitude: 21.33E &lt;br&gt; Depth: 23km &lt;br&gt; M 1.7</description>
+           <pubDate>Tue, 24 January 2023 14:22:59</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brcx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 0.5, 24/01 - 13:57:39 , 10.9 km NE of Patras</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brcf&lng=en]]></link>
+           <description>10.9 km NE of Patras&lt;br&gt; Time: 24-Jan-2023 13:57:39 (UTC) &lt;br&gt; Latitude: 38.32N &lt;br&gt; Longitude: 21.81E &lt;br&gt; Depth: 3km &lt;br&gt; M 0.5</description>
+           <pubDate>Tue, 24 January 2023 14:02:38</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brcf&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.0, 24/01 - 13:53:22 , 19.1 km SSE of Lamia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brcb&lng=en]]></link>
+           <description>19.1 km SSE of Lamia&lt;br&gt; Time: 24-Jan-2023 13:53:22 (UTC) &lt;br&gt; Latitude: 38.75N &lt;br&gt; Longitude: 22.55E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.0</description>
+           <pubDate>Tue, 24 January 2023 14:02:42</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brcb&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 13:10:59 , 3.3 km SSE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brar&lng=en]]></link>
+           <description>3.3 km SSE of Thiva&lt;br&gt; Time: 24-Jan-2023 13:10:59 (UTC) &lt;br&gt; Latitude: 38.29N &lt;br&gt; Longitude: 23.33E &lt;br&gt; Depth: 9km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 13:36:22</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023brar&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.1, 24/01 - 11:26:29 , 20.4 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqxf&lng=en]]></link>
+           <description>20.4 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 11:26:29 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.23E &lt;br&gt; Depth: 11km &lt;br&gt; M 2.1</description>
+           <pubDate>Tue, 24 January 2023 12:07:37</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqxf&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 11:06:20 , 2.5 km SSW of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqwo&lng=en]]></link>
+           <description>2.5 km SSW of Thiva&lt;br&gt; Time: 24-Jan-2023 11:06:20 (UTC) &lt;br&gt; Latitude: 38.30N &lt;br&gt; Longitude: 23.31E &lt;br&gt; Depth: 9km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 12:13:27</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqwo&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 24/01 - 11:00:13 , 9.1 km SE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqwj&lng=en]]></link>
+           <description>9.1 km SE of Thiva&lt;br&gt; Time: 24-Jan-2023 11:00:13 (UTC) &lt;br&gt; Latitude: 38.27N &lt;br&gt; Longitude: 23.40E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.5</description>
+           <pubDate>Tue, 24 January 2023 11:01:19</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqwj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.7, 24/01 - 10:29:49 , 61.7 km S of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqvi&lng=en]]></link>
+           <description>61.7 km S of Iraklion&lt;br&gt; Time: 24-Jan-2023 10:29:49 (UTC) &lt;br&gt; Latitude: 34.77N &lt;br&gt; Longitude: 25.17E &lt;br&gt; Depth: 31km &lt;br&gt; M 2.7</description>
+           <pubDate>Tue, 24 January 2023 10:40:37</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqvi&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 10:20:54 , 13.7 km NE of Pyrgos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqvb&lng=en]]></link>
+           <description>13.7 km NE of Pyrgos&lt;br&gt; Time: 24-Jan-2023 10:20:54 (UTC) &lt;br&gt; Latitude: 37.77N &lt;br&gt; Longitude: 21.57E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 10:22:00</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqvb&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 10:17:22 , 20.4 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqux&lng=en]]></link>
+           <description>20.4 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 10:17:22 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.28E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 12:55:28</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqux&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.2, 24/01 - 09:30:38 , 20.5 km E of Arta</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqtk&lng=en]]></link>
+           <description>20.5 km E of Arta&lt;br&gt; Time: 24-Jan-2023 09:30:38 (UTC) &lt;br&gt; Latitude: 39.13N &lt;br&gt; Longitude: 21.22E &lt;br&gt; Depth: 2km &lt;br&gt; M 2.2</description>
+           <pubDate>Tue, 24 January 2023 09:35:57</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqtk&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.3, 24/01 - 09:17:52 , 33.4 km NE of Chalkida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqsz&lng=en]]></link>
+           <description>33.4 km NE of Chalkida&lt;br&gt; Time: 24-Jan-2023 09:17:52 (UTC) &lt;br&gt; Latitude: 38.63N &lt;br&gt; Longitude: 23.92E &lt;br&gt; Depth: 8km &lt;br&gt; M 2.3</description>
+           <pubDate>Tue, 24 January 2023 12:30:38</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqsz&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 09:01:21 , 7.4 km SE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqsl&lng=en]]></link>
+           <description>7.4 km SE of Andravida&lt;br&gt; Time: 24-Jan-2023 09:01:21 (UTC) &lt;br&gt; Latitude: 37.85N &lt;br&gt; Longitude: 21.33E &lt;br&gt; Depth: 11km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 09:02:52</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqsl&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 08:43:46 , 8.0 km ESE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrw&lng=en]]></link>
+           <description>8.0 km ESE of Andravida&lt;br&gt; Time: 24-Jan-2023 08:43:46 (UTC) &lt;br&gt; Latitude: 37.87N &lt;br&gt; Longitude: 21.35E &lt;br&gt; Depth: 7km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 08:48:26</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrw&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 24/01 - 08:39:04 , 4.7 km SSE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrs&lng=en]]></link>
+           <description>4.7 km SSE of Andravida&lt;br&gt; Time: 24-Jan-2023 08:39:04 (UTC) &lt;br&gt; Latitude: 37.86N &lt;br&gt; Longitude: 21.28E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.5</description>
+           <pubDate>Tue, 24 January 2023 08:41:19</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrs&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 08:38:04 , 50.8 km SSW of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrq&lng=en]]></link>
+           <description>50.8 km SSW of Iraklion&lt;br&gt; Time: 24-Jan-2023 08:38:04 (UTC) &lt;br&gt; Latitude: 34.91N &lt;br&gt; Longitude: 24.90E &lt;br&gt; Depth: 29km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 10:25:04</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrq&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 08:32:28 , 7.5 km SE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrl&lng=en]]></link>
+           <description>7.5 km SE of Andravida&lt;br&gt; Time: 24-Jan-2023 08:32:28 (UTC) &lt;br&gt; Latitude: 37.84N &lt;br&gt; Longitude: 21.32E &lt;br&gt; Depth: 7km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 08:33:34</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrl&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 08:29:06 , 54.0 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrj&lng=en]]></link>
+           <description>54.0 km ENE of Athens&lt;br&gt; Time: 24-Jan-2023 08:29:06 (UTC) &lt;br&gt; Latitude: 38.22N &lt;br&gt; Longitude: 24.27E &lt;br&gt; Depth: 12km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 10:53:53</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqrj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 24/01 - 08:16:06 , 12.0 km SE of Lamia</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqqy&lng=en]]></link>
+           <description>12.0 km SE of Lamia&lt;br&gt; Time: 24-Jan-2023 08:16:06 (UTC) &lt;br&gt; Latitude: 38.82N &lt;br&gt; Longitude: 22.53E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.5</description>
+           <pubDate>Tue, 24 January 2023 08:17:09</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqqy&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 08:06:25 , 8.2 km SE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqqq&lng=en]]></link>
+           <description>8.2 km SE of Andravida&lt;br&gt; Time: 24-Jan-2023 08:06:25 (UTC) &lt;br&gt; Latitude: 37.84N &lt;br&gt; Longitude: 21.32E &lt;br&gt; Depth: 13km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 08:14:10</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqqq&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.4, 24/01 - 07:49:20 , 63.4 km ENE of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqqa&lng=en]]></link>
+           <description>63.4 km ENE of Iraklion&lt;br&gt; Time: 24-Jan-2023 07:49:20 (UTC) &lt;br&gt; Latitude: 35.53N &lt;br&gt; Longitude: 25.78E &lt;br&gt; Depth: 20km &lt;br&gt; M 2.4</description>
+           <pubDate>Tue, 24 January 2023 10:26:21</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqqa&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 0.8, 24/01 - 07:09:50 , 21.6 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqot&lng=en]]></link>
+           <description>21.6 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 07:09:50 (UTC) &lt;br&gt; Latitude: 39.36N &lt;br&gt; Longitude: 26.28E &lt;br&gt; Depth: 9km &lt;br&gt; M 0.8</description>
+           <pubDate>Tue, 24 January 2023 10:58:51</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqot&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 24/01 - 07:03:52 , 31.8 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqoo&lng=en]]></link>
+           <description>31.8 km NW of Korinthos&lt;br&gt; Time: 24-Jan-2023 07:03:52 (UTC) &lt;br&gt; Latitude: 38.15N &lt;br&gt; Longitude: 22.69E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.5</description>
+           <pubDate>Tue, 24 January 2023 07:04:58</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqoo&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.7, 24/01 - 06:57:16 , 28.7 km N of Chalkida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqoi&lng=en]]></link>
+           <description>28.7 km N of Chalkida&lt;br&gt; Time: 24-Jan-2023 06:57:16 (UTC) &lt;br&gt; Latitude: 38.72N &lt;br&gt; Longitude: 23.61E &lt;br&gt; Depth: 11km &lt;br&gt; M 1.7</description>
+           <pubDate>Tue, 24 January 2023 12:26:52</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqoi&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.9, 24/01 - 06:31:46 , 36.9 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqnl&lng=en]]></link>
+           <description>36.9 km NW of Korinthos&lt;br&gt; Time: 24-Jan-2023 06:31:46 (UTC) &lt;br&gt; Latitude: 38.16N &lt;br&gt; Longitude: 22.61E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.9</description>
+           <pubDate>Tue, 24 January 2023 06:35:26</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqnl&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 06:27:20 , 5.0 km S of Leukada</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqnj&lng=en]]></link>
+           <description>5.0 km S of Leukada&lt;br&gt; Time: 24-Jan-2023 06:27:20 (UTC) &lt;br&gt; Latitude: 38.67N &lt;br&gt; Longitude: 20.64E &lt;br&gt; Depth: 5km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 06:33:01</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqnj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.2, 24/01 - 06:23:48 , 54.8 km SSE of Methoni</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqng&lng=en]]></link>
+           <description>54.8 km SSE of Methoni&lt;br&gt; Time: 24-Jan-2023 06:23:48 (UTC) &lt;br&gt; Latitude: 36.38N &lt;br&gt; Longitude: 21.99E &lt;br&gt; Depth: 10km &lt;br&gt; M 2.2</description>
+           <pubDate>Tue, 24 January 2023 06:25:09</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqng&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 24/01 - 05:52:53 , 19.4 km NNE of Patras</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqmf&lng=en]]></link>
+           <description>19.4 km NNE of Patras&lt;br&gt; Time: 24-Jan-2023 05:52:53 (UTC) &lt;br&gt; Latitude: 38.40N &lt;br&gt; Longitude: 21.84E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.3</description>
+           <pubDate>Tue, 24 January 2023 05:58:36</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqmf&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 05:46:37 , 36.2 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqma&lng=en]]></link>
+           <description>36.2 km NW of Korinthos&lt;br&gt; Time: 24-Jan-2023 05:46:37 (UTC) &lt;br&gt; Latitude: 38.16N &lt;br&gt; Longitude: 22.63E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 05:48:25</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqma&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 05:44:45 , 88.7 km E of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqly&lng=en]]></link>
+           <description>88.7 km E of Iraklion&lt;br&gt; Time: 24-Jan-2023 05:44:45 (UTC) &lt;br&gt; Latitude: 35.33N &lt;br&gt; Longitude: 26.11E &lt;br&gt; Depth: 6km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 12:35:29</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqly&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 05:42:02 , 35.6 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqlw&lng=en]]></link>
+           <description>35.6 km NW of Korinthos&lt;br&gt; Time: 24-Jan-2023 05:42:02 (UTC) &lt;br&gt; Latitude: 38.17N &lt;br&gt; Longitude: 22.65E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 05:44:07</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqlw&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 24/01 - 05:21:45 , 21.5 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqle&lng=en]]></link>
+           <description>21.5 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 05:21:45 (UTC) &lt;br&gt; Latitude: 39.36N &lt;br&gt; Longitude: 26.27E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.5</description>
+           <pubDate>Wed, 25 January 2023 12:36:40</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqle&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 3.2, 24/01 - 04:45:47 , 40.7 km W of Skyros</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqka&lng=en]]></link>
+           <description>40.7 km W of Skyros&lt;br&gt; Time: 24-Jan-2023 04:45:47 (UTC) &lt;br&gt; Latitude: 38.92N &lt;br&gt; Longitude: 24.09E &lt;br&gt; Depth: 5km &lt;br&gt; M 3.2</description>
+           <pubDate>Tue, 24 January 2023 11:06:34</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqka&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 04:44:52 , 89.0 km E of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqjz&lng=en]]></link>
+           <description>89.0 km E of Iraklion&lt;br&gt; Time: 24-Jan-2023 04:44:52 (UTC) &lt;br&gt; Latitude: 35.26N &lt;br&gt; Longitude: 26.11E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 10:27:25</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqjz&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 24/01 - 04:23:13 , 19.5 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqjg&lng=en]]></link>
+           <description>19.5 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 04:23:13 (UTC) &lt;br&gt; Latitude: 39.34N &lt;br&gt; Longitude: 26.26E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.5</description>
+           <pubDate>Tue, 24 January 2023 11:09:10</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqjg&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.5, 24/01 - 04:16:31 , 93.5 km SW of Chania</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqja&lng=en]]></link>
+           <description>93.5 km SW of Chania&lt;br&gt; Time: 24-Jan-2023 04:16:31 (UTC) &lt;br&gt; Latitude: 35.02N &lt;br&gt; Longitude: 23.18E &lt;br&gt; Depth: 20km &lt;br&gt; M 2.5</description>
+           <pubDate>Tue, 24 January 2023 10:34:36</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqja&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 24/01 - 04:11:32 , 34.5 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqiw&lng=en]]></link>
+           <description>34.5 km NW of Korinthos&lt;br&gt; Time: 24-Jan-2023 04:11:32 (UTC) &lt;br&gt; Latitude: 38.16N &lt;br&gt; Longitude: 22.66E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.6</description>
+           <pubDate>Tue, 24 January 2023 05:07:24</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqiw&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.2, 24/01 - 04:08:53 , 10.7 km ESE of Andravida</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqiu&lng=en]]></link>
+           <description>10.7 km ESE of Andravida&lt;br&gt; Time: 24-Jan-2023 04:08:53 (UTC) &lt;br&gt; Latitude: 37.86N &lt;br&gt; Longitude: 21.38E &lt;br&gt; Depth: 19km &lt;br&gt; M 1.2</description>
+           <pubDate>Tue, 24 January 2023 04:10:09</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqiu&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.0, 24/01 - 04:06:10 , 22.2 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqis&lng=en]]></link>
+           <description>22.2 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 04:06:10 (UTC) &lt;br&gt; Latitude: 39.37N &lt;br&gt; Longitude: 26.25E &lt;br&gt; Depth: 8km &lt;br&gt; M 2.0</description>
+           <pubDate>Tue, 24 January 2023 13:00:00</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqis&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.9, 24/01 - 04:05:24 , 19.3 km SSE of Tripolis</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqir&lng=en]]></link>
+           <description>19.3 km SSE of Tripolis&lt;br&gt; Time: 24-Jan-2023 04:05:24 (UTC) &lt;br&gt; Latitude: 37.35N &lt;br&gt; Longitude: 22.47E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.9</description>
+           <pubDate>Tue, 24 January 2023 04:08:28</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqir&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 0.6, 24/01 - 04:04:50 , 12.8 km N of Aegion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqiq&lng=en]]></link>
+           <description>12.8 km N of Aegion&lt;br&gt; Time: 24-Jan-2023 04:04:50 (UTC) &lt;br&gt; Latitude: 38.36N &lt;br&gt; Longitude: 22.06E &lt;br&gt; Depth: 27km &lt;br&gt; M 0.6</description>
+           <pubDate>Tue, 24 January 2023 04:05:49</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqiq&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.0, 24/01 - 03:50:06 , 41.9 km S of Zakynthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqie&lng=en]]></link>
+           <description>41.9 km S of Zakynthos&lt;br&gt; Time: 24-Jan-2023 03:50:06 (UTC) &lt;br&gt; Latitude: 37.42N &lt;br&gt; Longitude: 20.82E &lt;br&gt; Depth: 10km &lt;br&gt; M 2.0</description>
+           <pubDate>Tue, 24 January 2023 05:06:24</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqie&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.2, 24/01 - 03:37:19 , 36.6 km NW of Korinthos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqht&lng=en]]></link>
+           <description>36.6 km NW of Korinthos&lt;br&gt; Time: 24-Jan-2023 03:37:19 (UTC) &lt;br&gt; Latitude: 38.16N &lt;br&gt; Longitude: 22.62E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.2</description>
+           <pubDate>Tue, 24 January 2023 03:38:21</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqht&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.0, 24/01 - 03:29:49 , 12.0 km ENE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqhm&lng=en]]></link>
+           <description>12.0 km ENE of Thiva&lt;br&gt; Time: 24-Jan-2023 03:29:49 (UTC) &lt;br&gt; Latitude: 38.38N &lt;br&gt; Longitude: 23.44E &lt;br&gt; Depth: 4km &lt;br&gt; M 1.0</description>
+           <pubDate>Tue, 24 January 2023 11:12:39</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqhm&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.4, 24/01 - 03:25:50 , 66.1 km SE of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqhj&lng=en]]></link>
+           <description>66.1 km SE of Iraklion&lt;br&gt; Time: 24-Jan-2023 03:25:50 (UTC) &lt;br&gt; Latitude: 34.94N &lt;br&gt; Longitude: 25.68E &lt;br&gt; Depth: 14km &lt;br&gt; M 2.4</description>
+           <pubDate>Tue, 24 January 2023 10:37:21</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqhj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 03:13:58 , 19.8 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqgz&lng=en]]></link>
+           <description>19.8 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 03:13:58 (UTC) &lt;br&gt; Latitude: 39.34N &lt;br&gt; Longitude: 26.26E &lt;br&gt; Depth: 8km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 13:06:20</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqgz&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 24/01 - 03:07:38 , 41.6 km WSW of Karditsa</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqgt&lng=en]]></link>
+           <description>41.6 km WSW of Karditsa&lt;br&gt; Time: 24-Jan-2023 03:07:38 (UTC) &lt;br&gt; Latitude: 39.22N &lt;br&gt; Longitude: 21.48E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 03:09:26</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqgt&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 3.0, 24/01 - 02:04:59 , 20.1 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqes&lng=en]]></link>
+           <description>20.1 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 02:04:59 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.28E &lt;br&gt; Depth: 11km &lt;br&gt; M 3.0</description>
+           <pubDate>Tue, 24 January 2023 13:11:43</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqes&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.9, 24/01 - 02:01:32 , 50.2 km SE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqeo&lng=en]]></link>
+           <description>50.2 km SE of Athens&lt;br&gt; Time: 24-Jan-2023 02:01:32 (UTC) &lt;br&gt; Latitude: 37.69N &lt;br&gt; Longitude: 24.17E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.9</description>
+           <pubDate>Tue, 24 January 2023 03:04:19</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqeo&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 3.0, 24/01 - 01:47:31 , 26.3 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqed&lng=en]]></link>
+           <description>26.3 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 01:47:31 (UTC) &lt;br&gt; Latitude: 39.40N &lt;br&gt; Longitude: 26.30E &lt;br&gt; Depth: 20km &lt;br&gt; M 3.0</description>
+           <pubDate>Tue, 24 January 2023 12:47:39</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqed&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.1, 24/01 - 01:41:26 , 48.2 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqdx&lng=en]]></link>
+           <description>48.2 km ENE of Athens&lt;br&gt; Time: 24-Jan-2023 01:41:26 (UTC) &lt;br&gt; Latitude: 38.17N &lt;br&gt; Longitude: 24.23E &lt;br&gt; Depth: 9km &lt;br&gt; M 1.1</description>
+           <pubDate>Tue, 24 January 2023 11:14:21</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqdx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 24/01 - 01:27:42 , 50.6 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqdm&lng=en]]></link>
+           <description>50.6 km ENE of Athens&lt;br&gt; Time: 24-Jan-2023 01:27:42 (UTC) &lt;br&gt; Latitude: 38.23N &lt;br&gt; Longitude: 24.22E &lt;br&gt; Depth: 14km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 11:15:24</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqdm&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 24/01 - 01:14:23 , 11.7 km NE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqda&lng=en]]></link>
+           <description>11.7 km NE of Thiva&lt;br&gt; Time: 24-Jan-2023 01:14:23 (UTC) &lt;br&gt; Latitude: 38.41N &lt;br&gt; Longitude: 23.39E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.3</description>
+           <pubDate>Tue, 24 January 2023 01:15:19</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqda&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.9, 24/01 - 00:57:18 , 20.3 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqcl&lng=en]]></link>
+           <description>20.3 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 00:57:18 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.27E &lt;br&gt; Depth: 7km &lt;br&gt; M 1.9</description>
+           <pubDate>Tue, 24 January 2023 13:12:54</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqcl&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.1, 24/01 - 00:54:28 , 21.4 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqcj&lng=en]]></link>
+           <description>21.4 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 00:54:28 (UTC) &lt;br&gt; Latitude: 39.36N &lt;br&gt; Longitude: 26.26E &lt;br&gt; Depth: 7km &lt;br&gt; M 2.1</description>
+           <pubDate>Tue, 24 January 2023 13:19:55</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqcj&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 3.6, 24/01 - 00:48:48 , 20.6 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqce&lng=en]]></link>
+           <description>20.6 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 00:48:48 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.27E &lt;br&gt; Depth: 13km &lt;br&gt; M 3.6</description>
+           <pubDate>Tue, 24 January 2023 12:41:23</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqce&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.8, 24/01 - 00:47:23 , 77.8 km SSW of Rethimnon</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqcd&lng=en]]></link>
+           <description>77.8 km SSW of Rethimnon&lt;br&gt; Time: 24-Jan-2023 00:47:23 (UTC) &lt;br&gt; Latitude: 34.68N &lt;br&gt; Longitude: 24.28E &lt;br&gt; Depth: 20km &lt;br&gt; M 2.8</description>
+           <pubDate>Tue, 24 January 2023 10:39:14</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqcd&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 0.6, 24/01 - 00:43:53 , 20.8 km N of Mitilini</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqbz&lng=en]]></link>
+           <description>20.8 km N of Mitilini&lt;br&gt; Time: 24-Jan-2023 00:43:53 (UTC) &lt;br&gt; Latitude: 39.35N &lt;br&gt; Longitude: 26.23E &lt;br&gt; Depth: 12km &lt;br&gt; M 0.6</description>
+           <pubDate>Tue, 24 January 2023 11:20:07</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqbz&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.9, 24/01 - 00:08:40 , 11.5 km NW of Argostoli</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqaw&lng=en]]></link>
+           <description>11.5 km NW of Argostoli&lt;br&gt; Time: 24-Jan-2023 00:08:40 (UTC) &lt;br&gt; Latitude: 38.25N &lt;br&gt; Longitude: 20.39E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.9</description>
+           <pubDate>Tue, 24 January 2023 00:10:32</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqaw&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 23/01 - 23:47:16 , 1.2 km E of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqad&lng=en]]></link>
+           <description>1.2 km E of Thiva&lt;br&gt; Time: 23-Jan-2023 23:47:16 (UTC) &lt;br&gt; Latitude: 38.32N &lt;br&gt; Longitude: 23.33E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.4</description>
+           <pubDate>Mon, 23 January 2023 23:48:19</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bqad&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.5, 23/01 - 23:41:16 , 37.4 km W of Karpenision</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzy&lng=en]]></link>
+           <description>37.4 km W of Karpenision&lt;br&gt; Time: 23-Jan-2023 23:41:16 (UTC) &lt;br&gt; Latitude: 38.74N &lt;br&gt; Longitude: 21.31E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.5</description>
+           <pubDate>Mon, 23 January 2023 23:42:16</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzy&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.4, 23/01 - 23:39:37 , 51.1 km NE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzx&lng=en]]></link>
+           <description>51.1 km NE of Athens&lt;br&gt; Time: 23-Jan-2023 23:39:37 (UTC) &lt;br&gt; Latitude: 38.25N &lt;br&gt; Longitude: 24.21E &lt;br&gt; Depth: 13km &lt;br&gt; M 2.4</description>
+           <pubDate>Tue, 24 January 2023 11:23:26</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.8, 23/01 - 23:37:27 , 19.6 km ENE of Skiathos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzv&lng=en]]></link>
+           <description>19.6 km ENE of Skiathos&lt;br&gt; Time: 23-Jan-2023 23:37:27 (UTC) &lt;br&gt; Latitude: 39.25N &lt;br&gt; Longitude: 23.68E &lt;br&gt; Depth: 5km &lt;br&gt; M 1.8</description>
+           <pubDate>Tue, 24 January 2023 11:25:49</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzv&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 23/01 - 23:36:48 , 58.5 km SSE of Iraklion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzu&lng=en]]></link>
+           <description>58.5 km SSE of Iraklion&lt;br&gt; Time: 23-Jan-2023 23:36:48 (UTC) &lt;br&gt; Latitude: 34.82N &lt;br&gt; Longitude: 25.33E &lt;br&gt; Depth: 34km &lt;br&gt; M 1.4</description>
+           <pubDate>Tue, 24 January 2023 10:46:25</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzu&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.4, 23/01 - 23:14:34 , 18.1 km NNW of Aegion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzb&lng=en]]></link>
+           <description>18.1 km NNW of Aegion&lt;br&gt; Time: 23-Jan-2023 23:14:34 (UTC) &lt;br&gt; Latitude: 38.41N &lt;br&gt; Longitude: 22.03E &lt;br&gt; Depth: 6km &lt;br&gt; M 1.4</description>
+           <pubDate>Mon, 23 January 2023 23:16:01</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpzb&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.3, 23/01 - 23:12:24 , 14.3 km NNE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpyz&lng=en]]></link>
+           <description>14.3 km NNE of Thiva&lt;br&gt; Time: 23-Jan-2023 23:12:24 (UTC) &lt;br&gt; Latitude: 38.44N &lt;br&gt; Longitude: 23.40E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.3</description>
+           <pubDate>Mon, 23 January 2023 23:13:25</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpyz&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 23/01 - 23:09:46 , 16.0 km NNE of Thiva</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpyx&lng=en]]></link>
+           <description>16.0 km NNE of Thiva&lt;br&gt; Time: 23-Jan-2023 23:09:46 (UTC) &lt;br&gt; Latitude: 38.45N &lt;br&gt; Longitude: 23.41E &lt;br&gt; Depth: 2km &lt;br&gt; M 1.6</description>
+           <pubDate>Mon, 23 January 2023 23:11:16</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpyx&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.6, 23/01 - 23:05:38 , 17.8 km NNW of Aegion</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpyu&lng=en]]></link>
+           <description>17.8 km NNW of Aegion&lt;br&gt; Time: 23-Jan-2023 23:05:38 (UTC) &lt;br&gt; Latitude: 38.40N &lt;br&gt; Longitude: 22.03E &lt;br&gt; Depth: 4km &lt;br&gt; M 1.6</description>
+           <pubDate>Mon, 23 January 2023 23:07:07</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpyu&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 2.8, 23/01 - 22:46:48 , 100.9 km SW of Karpathos</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpye&lng=en]]></link>
+           <description>100.9 km SW of Karpathos&lt;br&gt; Time: 23-Jan-2023 22:46:48 (UTC) &lt;br&gt; Latitude: 35.03N &lt;br&gt; Longitude: 26.36E &lt;br&gt; Depth: 17km &lt;br&gt; M 2.8</description>
+           <pubDate>Tue, 24 January 2023 10:52:18</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpye&lng=en]]></guid>
+        </item>
+        <item>
+           <title>M 1.1, 23/01 - 22:42:19 , 50.9 km ENE of Athens</title>
+           <link><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpya&lng=en]]></link>
+           <description>50.9 km ENE of Athens&lt;br&gt; Time: 23-Jan-2023 22:42:19 (UTC) &lt;br&gt; Latitude: 38.23N &lt;br&gt; Longitude: 24.22E &lt;br&gt; Depth: 10km &lt;br&gt; M 1.1</description>
+           <pubDate>Tue, 24 January 2023 11:48:10</pubDate>
+           <guid><![CDATA[http://www.geophysics.geol.uoa.gr/stations/gmaps3/eventpage_leaf.php?scid=nkua2023bpya&lng=en]]></guid>
+        </item>
+   </channel>
+</rss>
