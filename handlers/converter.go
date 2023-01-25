@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	ActivityCounter = 3
+	ActivityCounter = 20
 	FixedLatitude   = 37.99
 	FixedLongitude  = 23.70
 )
@@ -35,7 +35,7 @@ func feedsConverter(feeds []*types.GeophysicsRss) {
 				break
 			}
 			descriptionItems := strings.Split(geo.Channel.Items[i].Description, "<br>")
-			log.Println(descriptionItems)
+			//log.Println("Description Items: ", descriptionItems)
 
 			quake := createQuakeData(descriptionItems)
 			quake.filterActivity()
@@ -62,31 +62,29 @@ func createQuakeData(item []string) *QuakeData {
 
 func (quake *QuakeData) filterActivity() {
 	filters := loadFilters()
-	log.Println(filters)
-	//distanceInKM := distance(FixedLatitude, FixedLongitude, 29.46786, -98.53506, "K")
-	//
-	//for _, filter := range filters.Parameters {
-	//
-	//	if filter.Magnitude == floatMagnitude {
-	//
-	//	}
-	//}
+	quakeDistanceInKM := distance(FixedLatitude, FixedLongitude, quake.Latitude, quake.Longitude, "K")
+	for _, filter := range filters.Parameters {
+
+		if quake.Magnitude >= filter.Magnitude && quakeDistanceInKM <= filter.DistanceInKm && quake.Depth >= filter.Depth {
+			log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f", quake.Magnitude, quakeDistanceInKM, quake.Depth)
+		}
+	}
 
 }
 
 func loadFilters() types.Filters {
-	jsonFile, err := os.Open("filters.json")
+	jsonFile, err := os.Open("handlers/filters.json")
 	defer jsonFile.Close()
 
 	if err != nil {
-		log.Println(err)
+		log.Println("err: ", err)
 	}
 	var filters types.Filters
 	jsonParser := json.NewDecoder(jsonFile)
 	err = jsonParser.Decode(&filters)
 
 	if err != nil {
-		log.Fatalln(err)
+		log.Println("err: ", err)
 	}
 
 	return filters

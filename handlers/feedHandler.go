@@ -14,7 +14,7 @@ type feedResult struct {
 	err  error
 }
 
-func FetchFeeds(urls []string) []*types.GeophysicsRss {
+func FetchFeeds(urls []string) {
 	feedChan := make(chan feedResult, len(urls))
 
 	for _, url := range urls {
@@ -33,8 +33,6 @@ func FetchFeeds(urls []string) []*types.GeophysicsRss {
 
 		feedsConverter(feeds)
 	}
-
-	return feeds
 }
 
 func fetchSingleFeed(url string, feedChan chan feedResult) {

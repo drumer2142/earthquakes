@@ -5,8 +5,8 @@ type Filters struct {
 }
 
 type Parameters struct {
-	DistanceInKm int     `json:"DistanceInKm"`
+	DistanceInKm float64 `json:"DistanceInKm"`
 	Timestamp    string  `json:"Timestamp"`
-	Depth        int     `json:"Depth"`
+	Depth        float64 `json:"Depth"`
 	Magnitude    float64 `json:"Magnitude"`
 }
