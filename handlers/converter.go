@@ -16,6 +16,7 @@ var (
 	ActivityCounter = 3
 	FixedLatitude   = 37.99
 	FixedLongitude  = 23.70
+	NotifTimestamps = []string{"test"}
 )
 
 type Filter struct {
@@ -29,8 +30,6 @@ type QuakeData struct {
 	Magnitude float64
 	Timestamp string
 }
-
-var Timestamps []string
 
 func feedsConverter(feeds []*types.GeophysicsRss) {
 	filters := loadFilters()
@@ -77,13 +76,12 @@ func (quake *QuakeData) filterActivity(filters types.Filters) {
 			}
 		}
 	}
-
 }
 
 func (quake *QuakeData) checkDuplicatesExist() bool {
-	for _, stamp := range Timestamps {
+	for _, stamp := range NotifTimestamps {
 		if quake.Timestamp != stamp {
-			Timestamps = append(Timestamps, quake.Timestamp)
+			NotifTimestamps = append(NotifTimestamps, quake.Timestamp)
 			return false
 		}
 	}
