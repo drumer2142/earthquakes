@@ -3,13 +3,14 @@ package handlers
 import (
 	"encoding/base64"
 	"encoding/json"
-	"github.com/drumer2142/earthquakes/types"
 	"log"
 	"math"
 	"os"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/drumer2142/earthquakes/types"
 )
 
 var (
@@ -31,20 +32,16 @@ type QuakeData struct {
 	Timestamp string
 }
 
-func feedsConverter(feeds []*types.GeophysicsRss) {
+func feedsConverter(feed *types.GeophysicsRss) {
 	filters := loadFilters()
-	for _, geo := range feeds {
-		for i := 0; i < len(geo.Channel.Items); i++ {
-			if i > ActivityCounter {
-				break
-			}
-			descriptionItems := strings.Split(geo.Channel.Items[i].Description, "<br>")
-			//log.Println("Description Items: \n", descriptionItems)
-
-			quake := createQuakeData(descriptionItems)
-			quake.filterActivity(filters)
+	for i := 0; i < len(feed.Channel.Items); i++ {
+		if i > ActivityCounter {
+			break
 		}
-
+		descriptionItems := strings.Split(feed.Channel.Items[i].Description, "<br>")
+		log.Println("Description Items: \n", descriptionItems)
+		quake := createQuakeData(descriptionItems)
+		quake.filterActivity(filters)
 	}
 }
 
@@ -71,7 +68,7 @@ func (quake *QuakeData) filterActivity(filters types.Filters) {
 	for _, filter := range filters.Parameters {
 
 		if quake.Magnitude >= filter.Magnitude && quakeDistanceInKM <= filter.DistanceInKm && quake.Depth >= filter.Depth {
-			if quake.checkDuplicatesExist() == false {
+			if !quake.checkDuplicatesExist() {
 				log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f", quake.Magnitude, quakeDistanceInKM, quake.Depth)
 			}
 		}

@@ -10,13 +10,7 @@
       "DistanceInKm": 1000,
       "Timestamp": "",
       "Depth": 1,
-      "Magnitude": 4.6
-    },
-    {
-      "DistanceInKm": 1000,
-      "Timestamp": "",
-      "Depth": 1,
-      "Magnitude": 1
+      "Magnitude": 2
     }
   ]
 }
