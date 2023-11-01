@@ -10,11 +10,6 @@ import (
 	"github.com/drumer2142/earthquakes/types"
 )
 
-type feedResult struct {
-	feed *types.GeophysicsRss
-	err  error
-}
-
 func FetchFeed(url string) {
 
 	net := &http.Client{

@@ -20,10 +20,6 @@ var (
 	NotifTimestamps = []string{"test"}
 )
 
-type Filter struct {
-	filter *types.Filters
-}
-
 type QuakeData struct {
 	Latitude  float64
 	Longitude float64
@@ -64,15 +60,22 @@ func createQuakeData(item []string) *QuakeData {
 }
 
 func (quake *QuakeData) filterActivity(filters types.Filters) {
-	quakeDistanceInKM := distance(FixedLatitude, FixedLongitude, quake.Latitude, quake.Longitude, "K")
+	quakeDistanceInKM := calculateDistance(FixedLatitude, FixedLongitude, quake.Latitude, quake.Longitude, "K")
 	for _, filter := range filters.Parameters {
 
-		if quake.Magnitude >= filter.Magnitude && quakeDistanceInKM <= filter.DistanceInKm && quake.Depth >= filter.Depth {
+		if quake.filterCriteriaAreMet(filter, quakeDistanceInKM) {
 			if !quake.checkDuplicatesExist() {
 				log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f", quake.Magnitude, quakeDistanceInKM, quake.Depth)
 			}
 		}
 	}
+}
+
+func (quake *QuakeData) filterCriteriaAreMet(filter types.Parameters, quakeDistanceInKM float64) bool {
+	if quake.Magnitude >= filter.Magnitude && quakeDistanceInKM <= filter.DistanceInKm && quake.Depth >= filter.Depth {
+		return true
+	}
+	return false
 }
 
 func (quake *QuakeData) checkDuplicatesExist() bool {
@@ -87,6 +90,11 @@ func (quake *QuakeData) checkDuplicatesExist() bool {
 
 func loadFilters() types.Filters {
 	jsonFile, err := os.Open("handlers/filters.json")
+
+	if err != nil {
+		log.Println("err: ", err)
+	}
+
 	defer jsonFile.Close()
 
 	if err != nil {
@@ -131,7 +139,7 @@ func loadFilters() types.Filters {
 //:::                                                                         :::
 //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-func distance(lat1 float64, lng1 float64, lat2 float64, lng2 float64, unit ...string) float64 {
+func calculateDistance(lat1 float64, lng1 float64, lat2 float64, lng2 float64, unit ...string) float64 {
 	const PI float64 = 3.141592653589793
 
 	radlat1 := float64(PI * lat1 / 180)
