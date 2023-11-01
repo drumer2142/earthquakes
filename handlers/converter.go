@@ -6,6 +6,7 @@ import (
 	"log"
 	"math"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
@@ -89,10 +90,18 @@ func (quake *QuakeData) checkDuplicatesExist() bool {
 }
 
 func loadFilters() types.Filters {
-	jsonFile, err := os.Open("handlers/filters.json")
+
+	abs, err := filepath.Abs("handlers/filters.json")
+
+	if err != nil {
+		log.Println("Something is wrong with the file path:", abs)
+	}
+
+	jsonFile, err := os.Open(abs)
 
 	if err != nil {
 		log.Println("err: ", err)
+		panic(err)
 	}
 
 	defer jsonFile.Close()
