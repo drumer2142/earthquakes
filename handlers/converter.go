@@ -36,7 +36,7 @@ func feedsConverter(feed *types.GeophysicsRss) {
 			break
 		}
 		descriptionItems := strings.Split(feed.Channel.Items[i].Description, "<br>")
-		log.Println("Description Items: \n", descriptionItems)
+		log.Println("Description Items: ", descriptionItems)
 		quake := createQuakeData(descriptionItems)
 		quake.filterActivity(filters)
 	}
@@ -62,18 +62,19 @@ func createQuakeData(item []string) *QuakeData {
 
 func (quake *QuakeData) filterActivity(filters types.Filters) {
 	quakeDistanceInKM := calculateDistance(FixedLatitude, FixedLongitude, quake.Latitude, quake.Longitude, "K")
+	log.Println("Distance Of Queake In KM:", quakeDistanceInKM)
 	for _, filter := range filters.Parameters {
 
 		if quake.filterCriteriaAreMet(filter, quakeDistanceInKM) {
 			if !quake.checkDuplicatesExist() {
-				log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f", quake.Magnitude, quakeDistanceInKM, quake.Depth)
+				log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f \n", quake.Magnitude, quakeDistanceInKM, quake.Depth)
 			}
 		}
 	}
 }
 
 func (quake *QuakeData) filterCriteriaAreMet(filter types.Parameters, quakeDistanceInKM float64) bool {
-	if quake.Magnitude >= filter.Magnitude && quakeDistanceInKM <= filter.DistanceInKm && quake.Depth >= filter.Depth {
+	if quake.Magnitude >= filter.MinMagnitude && quakeDistanceInKM <= filter.MaxDistanseInKM && quake.Depth >= filter.MinDepth {
 		return true
 	}
 	return false

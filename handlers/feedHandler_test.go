@@ -3,6 +3,7 @@ package handlers
 import (
 	"testing"
 
+	"github.com/drumer2142/earthquakes/types"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -33,4 +34,33 @@ func TestCreateQuakeData(t *testing.T) {
 	quake := createQuakeData(descriptionItems)
 
 	assert.Equal(t, expectedQuakeData, quake)
+}
+
+func TestFilterCriteriaAreMet(t *testing.T) {
+	quakeDistanceInKM := 80.0
+
+	filter1 := types.Parameters{
+		MaxDistanseInKM: 64,
+		Timestamp:       "",
+		MinDepth:        3,
+		MinMagnitude:    2.1,
+	}
+
+	descriptionItems := []string{"29.3 km NNW of Chalkida", "Time: 03-Nov-2023 06:26:38 (UTC)", "Latitude: 38.72N", "Longitude: 23.53E", "Depth: 6km", "M 5.2"}
+	quake := createQuakeData(descriptionItems)
+	status1 := quake.filterCriteriaAreMet(filter1, quakeDistanceInKM)
+
+	filter2 := types.Parameters{
+		MaxDistanseInKM: 81,
+		Timestamp:       "",
+		MinDepth:        3,
+		MinMagnitude:    1.8,
+	}
+
+	descriptionItems = []string{"29.3 km NNW of Chalkida", "Time: 03-Nov-2023 06:26:38 (UTC)", "Latitude: 38.72N", "Longitude: 23.53E", "Depth: 10km", "M 2.0"}
+	quake = createQuakeData(descriptionItems)
+	status2 := quake.filterCriteriaAreMet(filter2, quakeDistanceInKM)
+
+	assert.Equal(t, false, status1)
+	assert.Equal(t, true, status2)
 }

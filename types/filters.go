@@ -5,8 +5,8 @@ type Filters struct {
 }
 
 type Parameters struct {
-	DistanceInKm float64 `json:"DistanceInKm"`
-	Timestamp    string  `json:"Timestamp"`
-	Depth        float64 `json:"Depth"`
-	Magnitude    float64 `json:"Magnitude"`
+	MaxDistanseInKM float64 `json:"MaxDistanseInKM"`
+	Timestamp       string  `json:"Timestamp"`
+	MinDepth        float64 `json:"MinDepth"`
+	MinMagnitude    float64 `json:"MinMagnitude"`
 }

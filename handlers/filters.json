@@ -1,16 +1,16 @@
 {
   "parameters": [
     {
-      "DistanceInKm": 64,
+      "MaxDistanseInKM": 64,
       "Timestamp": "",
-      "Depth": 3,
-      "Magnitude": 3.6
+      "MinDepth": 3,
+      "MinMagnitude": 3.6
     },
     {
-      "DistanceInKm": 1000,
+      "MaxDistanseInKM": 85,
       "Timestamp": "",
-      "Depth": 1,
-      "Magnitude": 2
+      "MinDepth": 3,
+      "MinMagnitude": 2.7
     }
   ]
 }
