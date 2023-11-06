@@ -40,3 +40,4 @@ At the moment it is statically configued (Work In Progress)
 - [ ] Check for Duplicates
 - [ ] Implement Push Notifications
 - [ ] Provide a UI
+- [ ] 
