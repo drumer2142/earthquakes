@@ -3,14 +3,13 @@ package handlers
 import (
 	"encoding/xml"
 	"io"
-	"log"
 	"net/http"
 	"time"
 
 	"github.com/drumer2142/earthquakes/types"
 )
 
-func FetchFeed(url string) {
+func FetchFeed(url string) error {
 
 	net := &http.Client{
 		Timeout: time.Second * 10,
@@ -19,19 +18,18 @@ func FetchFeed(url string) {
 	res, err := net.Get(url)
 
 	if err != nil {
-		log.Println(err)
+		return err
 	}
 
 	feed, err := parseFeed(res.Body)
 
 	if err != nil {
-		log.Println(err)
+		return err
 	}
 
 	feedsConverter(feed)
 
-	log.Println(res.Body)
-
+	return err
 }
 
 func parseFeed(body io.ReadCloser) (*types.GeophysicsRss, error) {
