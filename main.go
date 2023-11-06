@@ -9,13 +9,35 @@ import (
 
 var (
 	feedURLs     = "http://www.geophysics.geol.uoa.gr/stations/maps/seismicity.xml"
-	pollInterval = 3
+	pollInterval = 1 * time.Minute
 )
 
-func main() {
+type Sender interface {
+	Send(*handlers.QuakeData) error
+}
 
-	handlers.FetchFeed(feedURLs)
-	ticker := time.NewTicker(time.Duration(pollInterval) * time.Minute)
+type Poller struct {
+	Sender
+}
+
+type SMSSender struct {
+	number string
+}
+
+func main() {
+	smsSender := NewSMSSender("6900000000")
+	poll := newPoller(smsSender)
+	poll.start()
+}
+
+func newPoller(sender Sender) *Poller {
+	return &Poller{
+		Sender: sender,
+	}
+}
+
+func (poller *Poller) start() {
+	ticker := time.NewTicker(time.Duration(pollInterval))
 
 	for {
 		err := handlers.FetchFeed(feedURLs)
@@ -24,5 +46,19 @@ func main() {
 		}
 		<-ticker.C
 	}
+}
 
+func NewSMSSender(number string) *SMSSender {
+	return &SMSSender{
+		number: number,
+	}
+}
+
+func (s *SMSSender) Send(alert *handlers.QuakeData) error {
+	log.Println("Sending Alert to number: ", s.number)
+	return nil
+}
+
+func (poller *Poller) SendAlert(alert *handlers.QuakeData) error {
+	return poller.Sender.Send(alert)
 }
