@@ -11,6 +11,12 @@
       "Timestamp": "",
       "MinDepth": 3,
       "MinMagnitude": 1
+    },
+    {
+      "MaxDistanseInKM": 1000,
+      "Timestamp": "",
+      "MinDepth": 1,
+      "MinMagnitude": 3.5
     }
   ]
 }

@@ -14,31 +14,29 @@ import (
 	"github.com/drumer2142/earthquakes/types"
 )
 
-var (
-	ActivityCounter = 3
-	FixedLatitude   = 37.99
-	FixedLongitude  = 23.70
-	NotifTimestamps = []string{"test"}
-)
-
 type QuakeData struct {
-	Latitude  float64
-	Longitude float64
-	Depth     float64
-	Magnitude float64
-	Timestamp string
+	Latitude          float64
+	Longitude         float64
+	Depth             float64
+	Magnitude         float64
+	Timestamp         string
+	QuakeDistanceInKM float64
 }
 
-func feedsConverter(feed *types.GeophysicsRss) {
-	filters := loadFilters()
+var (
+	ActivityCounter = 3
+)
+
+func feedsConverter(feed *types.GeophysicsRss) *QuakeData {
+	// filters := loadFilters()
 	for i := 0; i < len(feed.Channel.Items); i++ {
 		if i > ActivityCounter {
 			break
 		}
 		descriptionItems := strings.Split(feed.Channel.Items[i].Description, "<br>")
 		log.Println("Description Items: ", descriptionItems)
-		quake := createQuakeData(descriptionItems)
-		quake.filterActivity(filters)
+		return createQuakeData(descriptionItems)
+		// quake.filterActivity(filters)
 	}
 }
 
@@ -60,37 +58,7 @@ func createQuakeData(item []string) *QuakeData {
 	}
 }
 
-func (quake *QuakeData) filterActivity(filters types.Filters) {
-	quakeDistanceInKM := calculateDistance(FixedLatitude, FixedLongitude, quake.Latitude, quake.Longitude, "K")
-	log.Println("Distance Of Queake In KM:", quakeDistanceInKM)
-	for _, filter := range filters.Parameters {
-
-		if quake.filterCriteriaAreMet(filter, quakeDistanceInKM) {
-			if !quake.checkDuplicatesExist() {
-				log.Printf("SEND QUAKE ALERT MG=%f DST=%f DEPTH=%f \n", quake.Magnitude, quakeDistanceInKM, quake.Depth)
-			}
-		}
-	}
-}
-
-func (quake *QuakeData) filterCriteriaAreMet(filter types.Parameters, quakeDistanceInKM float64) bool {
-	if quake.Magnitude >= filter.MinMagnitude && quakeDistanceInKM <= filter.MaxDistanseInKM && quake.Depth >= filter.MinDepth {
-		return true
-	}
-	return false
-}
-
-func (quake *QuakeData) checkDuplicatesExist() bool {
-	for _, stamp := range NotifTimestamps {
-		if quake.Timestamp != stamp {
-			NotifTimestamps = append(NotifTimestamps, quake.Timestamp)
-			return false
-		}
-	}
-	return true
-}
-
-func loadFilters() types.Filters {
+func LoadFilters() types.Filters {
 
 	abs, err := filepath.Abs("handlers/filters.json")
 
@@ -149,7 +117,7 @@ func loadFilters() types.Filters {
 //:::                                                                         :::
 //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-func calculateDistance(lat1 float64, lng1 float64, lat2 float64, lng2 float64, unit ...string) float64 {
+func (quake *QuakeData) CalculateDistance(lat1 float64, lng1 float64, lat2 float64, lng2 float64, unit ...string) {
 	const PI float64 = 3.141592653589793
 
 	radlat1 := float64(PI * lat1 / 180)
@@ -176,5 +144,5 @@ func calculateDistance(lat1 float64, lng1 float64, lat2 float64, lng2 float64, u
 		}
 	}
 
-	return dist
+	quake.QuakeDistanceInKM = dist
 }

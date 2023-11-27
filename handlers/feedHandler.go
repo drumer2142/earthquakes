@@ -9,7 +9,7 @@ import (
 	"github.com/drumer2142/earthquakes/types"
 )
 
-func FetchFeed(url string) error {
+func FetchFeed(url string) (quake *QuakeData, err error) {
 
 	net := &http.Client{
 		Timeout: time.Second * 10,
@@ -18,18 +18,18 @@ func FetchFeed(url string) error {
 	res, err := net.Get(url)
 
 	if err != nil {
-		return err
+		return nil, err
 	}
 
 	feed, err := parseFeed(res.Body)
 
 	if err != nil {
-		return err
+		return nil, err
 	}
 
-	feedsConverter(feed)
+	quake = feedsConverter(feed)
 
-	return err
+	return quake, err
 }
 
 func parseFeed(body io.ReadCloser) (*types.GeophysicsRss, error) {
