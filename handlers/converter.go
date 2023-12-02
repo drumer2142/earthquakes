@@ -24,7 +24,7 @@ type QuakeData struct {
 }
 
 var (
-	ActivityCounter = 30
+	ActivityCounter = 3
 )
 
 func feedsConverter(feed *types.GeophysicsRss) map[int]*QuakeData {
