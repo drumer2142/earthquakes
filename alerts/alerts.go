@@ -84,7 +84,7 @@ func filterActivity(quake *handlers.QuakeData) bool {
 	log.Println("Distance Of Quake In KM:", quake.QuakeDistanceInKM)
 	for _, filter := range filters.Parameters {
 
-		if filterCriteriaAreMet(filter, quake, quake.QuakeDistanceInKM) {
+		if filterCriteriaAreMet(filter, quake) {
 			if !checkDuplicatesExist(quake) {
 				return true
 			}
@@ -93,8 +93,8 @@ func filterActivity(quake *handlers.QuakeData) bool {
 	return false
 }
 
-func filterCriteriaAreMet(filter types.Parameters, quake *handlers.QuakeData, quakeDistanceInKM float64) bool {
-	if quake.Magnitude >= filter.MinMagnitude && quakeDistanceInKM <= filter.MaxDistanseInKM && quake.Depth >= filter.MinDepth {
+func filterCriteriaAreMet(filter types.Parameters, quake *handlers.QuakeData) bool {
+	if quake.Magnitude >= filter.MinMagnitude && quake.QuakeDistanceInKM <= filter.MaxDistanseInKM && quake.Depth >= filter.MinDepth {
 		return true
 	}
 	return false

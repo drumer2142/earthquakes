@@ -24,7 +24,7 @@ type QuakeData struct {
 }
 
 var (
-	ActivityCounter = 3
+	ActivityCounter = 30
 )
 
 func feedsConverter(feed *types.GeophysicsRss) map[int]*QuakeData {
@@ -35,12 +35,12 @@ func feedsConverter(feed *types.GeophysicsRss) map[int]*QuakeData {
 		}
 		descriptionItems := strings.Split(feed.Channel.Items[i].Description, "<br>")
 		log.Println("Description Items: ", descriptionItems)
-		quakesMap[i] = createQuakeData(descriptionItems)
+		quakesMap[i] = CreateQuakeData(descriptionItems)
 	}
 	return quakesMap
 }
 
-func createQuakeData(item []string) *QuakeData {
+func CreateQuakeData(item []string) *QuakeData {
 	floatReg, _ := regexp.Compile("[+-]?([0-9]*[.])?[0-9]+")
 
 	timestampHash := base64.StdEncoding.EncodeToString([]byte(item[1]))
