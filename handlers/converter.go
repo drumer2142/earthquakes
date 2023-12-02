@@ -27,17 +27,17 @@ var (
 	ActivityCounter = 3
 )
 
-func feedsConverter(feed *types.GeophysicsRss) *QuakeData {
-	// filters := loadFilters()
+func feedsConverter(feed *types.GeophysicsRss) map[int]*QuakeData {
+	quakesMap := make(map[int]*QuakeData)
 	for i := 0; i < len(feed.Channel.Items); i++ {
 		if i > ActivityCounter {
 			break
 		}
 		descriptionItems := strings.Split(feed.Channel.Items[i].Description, "<br>")
 		log.Println("Description Items: ", descriptionItems)
-		return createQuakeData(descriptionItems)
-		// quake.filterActivity(filters)
+		quakesMap[i] = createQuakeData(descriptionItems)
 	}
+	return quakesMap
 }
 
 func createQuakeData(item []string) *QuakeData {

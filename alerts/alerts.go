@@ -54,13 +54,15 @@ func (poller *Poller) Start() {
 	ticker := time.NewTicker(time.Duration(pollInterval))
 
 	for {
-		quake, err := handlers.FetchFeed(feedURLs)
+		quakesMap, err := handlers.FetchFeed(feedURLs)
 		if err != nil {
 			log.Fatal(err)
 		}
 		<-ticker.C
 
-		poller.SendAlert(quake)
+		for _, quake := range quakesMap {
+			poller.SendAlert(quake)
+		}
 	}
 }
 
