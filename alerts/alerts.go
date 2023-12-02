@@ -51,19 +51,19 @@ func NewPushNotification(channel string) *PushNotification {
 }
 
 func (poller *Poller) Start() {
-	// ticker := time.NewTicker(time.Duration(pollInterval))
+	ticker := time.NewTicker(time.Duration(pollInterval))
 
 	for {
 		quakesMap, err := handlers.FetchFeed(feedURLs)
 		if err != nil {
 			log.Fatal(err)
 		}
-		// <-ticker.C
 
 		for _, quake := range quakesMap {
 			poller.SendAlert(quake)
 		}
-		time.Sleep(1 * time.Minute)
+
+		<-ticker.C
 	}
 }
 
